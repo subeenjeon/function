@@ -14,14 +14,14 @@ function draw(){
 	noStroke();
 	fill(245, 212, 200);
 	ellipse(400, 400, 200, 200);
-	fill(0);
+	fill(250, 217, 37);
 	ellipse(400, 400, 130, 130);
 
 //doughnut #3//
 	noStroke();
 	fill(230, 236, 240);
 	ellipse(50, 50, 200, 200);
-	fill(0);
+	fill(250, 217, 37);
 	ellipse(50, 50, 130, 130);
 
 	drawDonut1(247, 8, 40, 150, 150);
@@ -32,7 +32,7 @@ function draw(){
 //doughnut #1//
 function drawDonut1(r, g, b, x, y){
 	noStroke();
-	fill(255);
+	fill(r, g, b);
 	ellipse(x, y, 200, 200);
 	fill(250, 217, 37);
 	ellipse(x, y, 130, 130);
