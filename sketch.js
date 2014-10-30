@@ -4,18 +4,20 @@ function setup(){
 
 function draw(){
 	background(250, 217, 37);
-	fill(250, 217, 37);
+	fill(255);
 	ellipse(mouseX, mouseY, 100, 100);
 
 
 
 //doughnut #2//
+	noStroke();
 	fill(245, 212, 200);
 	ellipse(400, 400, 200, 200);
 	fill(0);
 	ellipse(400, 400, 130, 130);
 
 //doughnut #3//
+	noStroke();
 	fill(230, 236, 240);
 	ellipse(50, 50, 200, 200);
 	fill(0);
@@ -28,6 +30,7 @@ function draw(){
 
 //doughnut #1//
 function drawDonut1(r, g, b, x, y){
+	noStroke();
 	fill(r, g, b);
 	ellipse(x, y, 200, 200);
 	fill(0);
