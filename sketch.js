@@ -25,7 +25,7 @@ function draw(){
 	ellipse(50, 50, 130, 130);
 
 	drawDonut1(247, 8, 40, 150, 150);
-	drawDonut1(212, 239, 231, 670, 670);
+	drawDonut1(20, 142, 115, 670, 670);
 	drawDonut1(149, 80, 75, 780, 100);
 }
 
