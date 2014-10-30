@@ -7,7 +7,8 @@ function draw(){
 	noStroke();
 	fill(255);
 	ellipse(mouseX, mouseY, 100, 100);
-
+	fill(156, 215, 162);
+	ellipse(mouseX, mouseY, 60, 60);
 
 
 //doughnut #2//
@@ -24,7 +25,7 @@ function draw(){
 	fill(250, 217, 37);
 	ellipse(50, 50, 130, 130);
 
-	//drawDonut1(247, 8, 40, 150, 150);
+	drawDonut1(247, 8, 40, 150, 150);
 	drawDonut1(20, 142, 115, 670, 670);
 	drawDonut1(149, 80, 75, 780, 100);
 }
