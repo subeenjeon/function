@@ -32,8 +32,8 @@ function draw(){
 //doughnut #1//
 function drawDonut1(r, g, b, x, y){
 	noStroke();
-	fill(250, 217, 37);
+	fill(r, g, b);
 	ellipse(x, y, 200, 200);
-	fill(0);
+	fill(250, 217, 37);
 	ellipse(x, y, 130, 130);
 }
